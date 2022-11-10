@@ -208,14 +208,17 @@ img {
 .nosotros {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    /* background-image: url(../img/nosotros.jpg); */
     background-repeat: no-repeat;
     background-position: bottom center;
     grid-row: 2 / 3;
 }
 @media (min-width: 768px) {
     .nosotros {
+        background-image: url(../img/nosotros.jpg);
         grid-template-columns: repeat(3, 1fr);
+    }
+    .nosotros-img {
+        visibility: hidden;
     }
 }
 
