@@ -208,7 +208,7 @@ img {
 .nosotros {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    background-image: url(../img/nosotros.jpg);
+    /* background-image: url(../img/nosotros.jpg); */
     background-repeat: no-repeat;
     background-position: bottom center;
     grid-row: 2 / 3;
