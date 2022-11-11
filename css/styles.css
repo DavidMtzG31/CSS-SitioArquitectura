@@ -345,3 +345,30 @@ img {
 }
 
 
+/* Footer */
+.footer {
+    height: 50rem;
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: var(--blanco)
+}
+
+.footer a {
+    color: var(--blanco);
+    font-size: 2rem;
+}
+
+.copyright {
+    color: var(--blanco);
+    background-color: var(--negro);
+    text-align: center;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+    font-size: 2rem;
+}
